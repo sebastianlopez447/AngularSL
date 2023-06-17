@@ -1,0 +1,33 @@
+<h1> DBZ Personajes</h1>
+
+<hr>
+
+<div class="row">
+
+    <div class="col">
+        <!--coloco el componente en este caso list-component.html-->
+
+        <!-- mando un arreglo de personaje por ende
+             imprime lo q tengo en el componente -->
+        <app-dbz-list [characterList]="character"> </app-dbz-list>
+
+
+
+    </div>
+    <div class="col">
+        <h4> Agregar Personaje</h4>
+        {{character}}
+
+        <app-dbz-character></app-dbz-character>
+
+    </div>
+</div>
+
+
+<!--/* se agrupa los demas componente aca, para un router ,
+
+  es una pagina es un componente que tienen mas componente ****
+ YO SOY LA ABUNDancia del todo el dinero que necesito en mi mundo
+  y asuntos rayo oro rubi*****
+
+-->
